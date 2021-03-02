@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(24, 23, 23);
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color:white;
+    text-align: center;
+}
+
+h2{
+    color:white;
+    text-align: center;
+}
+
+h2 a{
+    color:white;
+}
+
+.header{
+    overflow: hidden;
+    padding: 6px 10px;
+    text-align: left;
+    background: rgb(41, 41, 41);
+}
+
+.header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+
+.header a.logo{
+    font-size: 26px;
+    font-weight:500;
+}
+
+
+.header a:hover {
+    background-color: rgb(61, 61, 61);
+}
+
+body {    
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#twitch-embed {
+   float: right;
+    padding: 0 !important;
+    margin: 0 !important;
+    position: relative;
+    width: 75%;
+    height: auto;
+}
+
+.twitter-timeline {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.wip-text{
+    color:white;
+    text-align: center;
+}
+
