@@ -8,14 +8,15 @@ h1 {
     text-align: center;
 }
 
+h1 a {
+    color:white;
+}
+
 h2{
     color:white;
     text-align: center;
 }
 
-h1 a{
-    color:white;
-}
 
 .header{
     overflow: hidden;
