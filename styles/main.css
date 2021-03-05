@@ -8,13 +8,14 @@ h1 {
     text-align: center;
 }
 
-h1 a {
-    color:white;
-}
 
 h2{
     color:white;
     text-align: center;
+}
+
+a {
+  color:white;  
 }
 
 
@@ -48,22 +49,22 @@ h2{
 }
 
 body {    
-    margin: 0 !important;
-    padding: 0 !important;
+    margin: 0;
+    padding: 0;
 }
 
 #twitch-embed {
    float: right;
-    padding: 0 !important;
-    margin: 0 !important;
+    padding: 0;
+    margin: 0;
     position: relative;
     width: 75%;
     height: auto;
 }
 
 .twitter-timeline {
-    padding: 0 !important;
-    margin: 0 !important;
+    padding: 0;
+    margin: 0;
 }
 
 .wip-text{
