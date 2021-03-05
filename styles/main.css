@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
     background-color: rgb(24, 23, 23);
     font-family: Arial, sans-serif;
@@ -53,13 +57,17 @@ body {
     padding: 0;
 }
 
+.embeds{
+    display: flex;
+    width:100%;
+}
+
 #twitch-embed {
-   float: right;
     padding: 0;
     margin: 0;
     position: relative;
-    width: 75%;
     height: auto;
+    width:100%;
 }
 
 .twitter-timeline {
