@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(24, 23, 23);
+    font-family: Arial, sans-serif;
+}
+
+.main-title{
+    color:white;
+    text-align: center;
+    font-size: 60px;
+    padding: 0px;
+}
+
+.subtitle{
+    color:white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.main-content{
+    text-align: center;
+}
+
+.add-dog{
+    border:none;
+    border-radius: 0;
+    font-size: 42px;
+}
+
+.add-dog:hover{
+    background-color: darkgray;
+}
+
+.add-dog:active{
+    background-color: dimgray;
+}
+
+.doggos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+}
