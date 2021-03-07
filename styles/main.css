@@ -80,3 +80,10 @@ body {
     text-align: center;
 }
 
+.project-list{
+    padding-left: 70px;
+    font-size: 60px;
+    list-style-type: disc;
+    color:white;
+    
+}
